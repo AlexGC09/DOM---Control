@@ -1,0 +1,132 @@
+
+.cuadro{
+  box-shadow: 5px 5px 8px rgb(22, 1, 1);
+  height: 200px;
+  width: 300px;
+  background: #1C6EA4;
+}
+
+.letra{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+.container{
+  width: 500px;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin-left: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.uno{
+  margin-top: 50px;
+}
+.dos{
+  margin-top: 90px;
+  margin-left: 60px;
+  margin-right: 300px;
+}
+
+.principal{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container1{
+  width: 500px;
+    border-radius: 3px;
+    margin-left: 15px;
+    padding: 15px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+   
+}
+.tres{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container2{
+  border: 3px solid black;
+  width: 500px;
+    border-radius: 3px;
+    margin-left: 15px;
+    padding: 15px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.container3{
+  width: 500px;
+    border-radius: 3px;
+    margin-left: 15px;
+    padding: 15px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.galery{
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+}
+.efecto
+{
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 2px;
+    justify-content: center;
+}
+
+.efecto > div
+{
+    display: inline-block;
+    overflow: hidden;
+    padding: 30px;
+    text-align: center;
+    border-radius: px;
+    border: 1px solid #999;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+
+.efecto > div:hover
+{
+    border: 2px solid #444; 
+  }
+
+  .hover{
+    box-shadow: 0px 10px 13px -7px #000000;
+    background-color: #1C6EA4;
+}
+
+.sides
+{
+    box-shadow: -10px 0px 13px -7px #000000, 
+    10px 0px 13px -7px #000000;
+    background-color: #1C6EA4;
+}
+
+.button
+{
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 
+    2px 5px 16px 0px #0B325E; 
+    background-color: #1C6EA4;
+}
+
+.mirrors
+{
+    box-shadow: inset 2px 2px 2px 2px #1C6EA4,
+     inset 11px 11px 2px 0px #2285C7, 
+     inset 20px 20px 2px 1px #289DEA,
+      inset 29px 29px 2px 1px #57BBEA;
+    background-color: #1C6EA4;
+}
